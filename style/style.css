@@ -14,7 +14,7 @@
     justify-content: flex-end;
 }
 
-.dropDown-menu{
+#dots {
     display: none;
 }
 
@@ -142,6 +142,11 @@
     top: 2144.27px;
 }
 
+.icons:hover {
+    filter: invert(40%) sepia(90%) saturate(281%) hue-rotate(180deg) contrast(92%);;
+    cursor: pointer;
+}
+
 #textfooter1{
     color: #716565;
     font-family: Roboto Condensed;
@@ -175,13 +180,9 @@
     margin-top: 47px;
 }
 
-.icons:hover {
-    filter: invert(40%) sepia(90%) saturate(281%) hue-rotate(180deg) brightness(90%) contrast(92%);;
-    cursor: pointer;
-}
 
 
-@media (max-width: 1023px){
+@media (max-width: 1025px){
 
     #title, #subtitle, .menu {
         display:none;
@@ -198,6 +199,7 @@
     }
 
     #dots{
+        display: block;
         position: absolute;
         width: 8px;
         left: 28px;
