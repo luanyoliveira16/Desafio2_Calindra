@@ -1,0 +1,288 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+}
+
+#container{
+    width: 100%;
+    height: 110px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.dropDown-menu{
+    display: none;
+}
+
+#logo{
+    position: absolute;
+    width: 71px;
+    height: 70px;
+    top: 20px;
+    left: 53px;
+}
+
+#title {
+    font-family: Roboto Condensed;
+    font-size: 41.2px;
+    line-height: 48px;
+    color:#846219;
+    position: absolute;
+    left: 147px;
+    top: 20px;
+    cursor: pointer;
+   
+    
+}
+
+#subtitle{
+    font-family: Roboto Condensed;
+    font-size: 16.2px;
+    line-height: 19px;
+    color: #846219;
+    position: absolute;
+    left: 151px;
+    top: 68px;
+    letter-spacing: 5.4px;
+}
+
+.opçoes{
+    font-family: Roboto Condensed;
+    font-size: 16.2px;
+    color: #846219;
+    line-height: 18.98px;
+    letter-spacing: 5.4px;
+    margin: 127px;
+    cursor: pointer;
+}
+
+.opçoes:hover{
+    text-decoration: underline;
+    color:#506FA9;
+}
+
+.main1 {
+    background-color: #E9E9E9; 
+    width: 100%;
+    height: 914px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#measuring{
+    color: #716565;
+    font-family: Roboto Condensed;
+    font-size: 82.2px;
+    line-height: 96.33px;
+
+}
+
+#fita {
+    width: 682px;
+    height: 335px;
+}
+
+.main2 {
+    background-color: #506FA9; 
+    width: 100%;
+    height: 914px; 
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+#titlemain2 {
+    color: #FFFFFF;
+    font-family: Roboto Condensed;
+    font-size: 69.2px;
+    line-height: 81.09px;
+    position: absolute;
+    left: 159px; 
+    top: 1473px;
+}
+
+#subtitlemain2 {
+    color: #FFFFFF;
+    font-family: Roboto Condensed;
+    font-size: 48.2px;
+    line-height: 56.48px;
+    position: absolute;
+    left: 159px;
+    top: 1661px;
+}
+
+
+.textmain2{
+    display: flex;
+}
+
+#fita2{
+    mix-blend-mode: multiply;
+    margin-left: 50px;
+}
+
+#footer {
+    width: 100%;
+    height: 226px;
+    background-color: #E9E9E9;
+    display: flex;
+    
+}
+
+.icons{
+    width: 43px;
+    height: 43px;
+    left: 153.16px;
+    top: 2144.27px;
+}
+
+#textfooter1{
+    color: #716565;
+    font-family: Roboto Condensed;
+    font-size: 27.2px;
+    line-height: 31.88px;
+    margin-bottom: 17.27px;
+}
+
+#textfooter2{
+    color: #716565;
+    font-family: Roboto Condensed;
+    font-size: 27.2px;
+    line-height: 31.88px;
+    margin-bottom: 17.27px;
+}
+
+#address{
+   color: #716565;
+   font-size: 16.2px;
+   line-height: 19px; 
+}
+
+.follow-contact{
+    display:flex;
+    width: 150px;
+    height: 92px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:10px;
+    margin-left: 157px;
+    margin-top: 47px;
+}
+
+.icons:hover {
+    filter: invert(40%) sepia(90%) saturate(281%) hue-rotate(180deg) brightness(90%) contrast(92%);;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1023px){
+
+    #title, #subtitle, .menu {
+        display:none;
+    }
+
+
+    #container{
+        position: absolute;
+        width: 58vh;
+        height: 57px;
+        left: 0px;
+        top: 0px;
+
+    }
+
+    #dots{
+        position: absolute;
+        width: 8px;
+        left: 28px;
+        top: 10px;
+    }
+
+    #logo{
+        position: absolute;
+        width: 38.89px;
+        height: 34.03px;
+        left: 45%;
+        top: 10.43px;
+    }
+
+    .main1{
+        display: flex;
+        flex-direction: column;
+        width: 58vh;
+        height: 568px;
+        align-items: center;
+    }
+   
+    .main2{
+        display: flex;
+        flex-direction: column;
+        width: 58vh;
+        height: 568px;
+    }
+
+    #measuring{
+        font-size: 53.2px;
+        line-height: 62.34px
+    }
+
+    #fita {
+        width: 285px;
+        height: 140px;
+    }
+
+    #titlemain2{
+
+        height: 96px;
+        width: 100%;
+        left: 14px;
+        top: 644px;
+        border-radius: nullpx;
+        font-size: 41.2px;
+        line-height: 48px;
+
+
+    }
+#subtitlemain2{
+    position: absolute;
+    width: 293px;
+    height: 90px;
+    left: 14px;
+    top: 762px;
+    font-size: 26.2px;
+    line-height: 31px;
+}
+    
+#fita2 {
+    position: absolute;
+    width: 259px;
+    height: 172px;
+    left: 77px;
+    top: 884px;
+    }
+
+#textmain2 {
+    display: flex;
+    flex-direction: column;      
+    }
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    width: 58vh;
+    height: 334px;
+    justify-content:center;
+}
+
+.follow-contact{
+    margin-left: 30%;
+}
+
+    
+}
